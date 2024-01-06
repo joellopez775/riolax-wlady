@@ -23,8 +23,8 @@ const Main = () => {
                                         <li>
                                             <i className="icon fal fa-envelope"></i>
                                             <span>
-                                                <Link to="#">info@example.com</Link><br/>
-                                                <Link to="#">help@example.com</Link>
+                                                <Link to="#">contacto@dondeelwlady.cl</Link><br/>
+                                                <Link to="#">contacto@dondeelwlady.cl</Link>
                                             </span>
                                         </li>
                                         <li>

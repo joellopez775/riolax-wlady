@@ -203,7 +203,7 @@ function Headerfour() {
                     <div id="cssmenu2" className="menu-one-page-menu-container mt-100">
                         <ul id="menu-one-page-menu-1" className="menu">
                             <li className="menu-item menu-item-type-custom menu-item-object-custom"><Link to="#home"><span>+8 12 3456897</span></Link></li>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom"><Link to="#howitwork"><span>info@example.com</span></Link></li>
+                            <li className="menu-item menu-item-type-custom menu-item-object-custom"><Link to="#howitwork"><span>contacto@dondeelwlady.cl</span></Link></li>
                         </ul>
                     </div>                
                 </div>

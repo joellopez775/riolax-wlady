@@ -17,9 +17,9 @@ function Explore() {
                     <div className="row align-items-center">
                         <div className="col-lg-12">
                             <div className="section-title center-align mb-50 text-center">
-                                <h5>Explore</h5>
+                                <h5>Explora</h5>
                                 <h2>
-                                    The Hotel
+                                    Nuestra Hostal
                                 </h2>
                                 <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
                             </div>
@@ -33,14 +33,14 @@ function Explore() {
                                      <img src={Hotel1} alt="img"/>
                                     </div>
                                     <div className="services-08-content">
-                                        <h3><Link to="/service-details"> Qulity Room</Link></h3>
+                                        <h3><Link to="/service-details"> Habitaciones de calidad</Link></h3>
                                         <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
                                         <Link to="/service-details">Read More <i className="fal fa-long-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
                               <div className="col-lg-4 col-md-6">                                  
-                                <div className="services-08-item mb-30">
+                                {/*<div className="services-08-item mb-30">
                                      <div className="services-icon2">
                                        <img src={Hotel2} alt="img"/>
                                     </div>
@@ -52,7 +52,7 @@ function Explore() {
                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
                                          <Link to="/service-details">Read More <i className="fal fa-long-arrow-right"></i></Link>
                                     </div>
-                                </div>
+  </div>*/}
                             </div>
                              <div className="col-lg-4 col-md-6">
                                <div className="services-08-item mb-30">

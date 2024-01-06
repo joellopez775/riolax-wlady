@@ -16,18 +16,18 @@ $firstname = $_POST['firstname'];
 	$subject = $_POST['subject'];
 
 $mail->IsSMTP();
-$mail-> Host='smtp.gmail.com';
-$mail->Port=587;
+$mail-> Host='mail.dondeelwlady.cl';
+$mail->Port=465;
 $mail->SMTPAuth=true;
 $mail->SMTPSecure='tls';
-$mail->Username='kabra4215@gmail.com'; // enter email here
-$mail->Password=''; //enter password of email id..
-$mail->setFrom('kabra4215@gmail.com','RIORELAX'); //change name and email 
+$mail->Username='contacto@dondeelwlady.cl'; // enter email here
+$mail->Password='n;=d5hI7U#6]'; //enter password of email id..
+$mail->setFrom('contacto@dondeelwlady.cl','Wladimir Morales'); //change name and email 
 $mail->addAddress($email);
-$mail->addReplyTo('amitjadav2002@gmail.com'); //change email here..
+$mail->addReplyTo(''); //change email here..
 $mail->isHTML(true);
 $mail->Subject='PHP mailer Subject';
-$mail->Body    = 'Thanks for mail us';
+$mail->Body    = 'Gracias por contactarnos';
 
 
 if(!$mail->send()) {

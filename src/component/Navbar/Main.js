@@ -54,7 +54,7 @@ const Main = () => {
                     <div className="container">
                         <div className="second-menu">
                             <div className="row align-items-center">
-                                <div className="col-xl-4 col-lg-4">
+                                <div className="col-xl-2 col-lg-2">
                                     <div className="logo">
                                         <Link to="/"><img src="assets/img/logo/logo_wlady.png" alt="logo" /></Link>
                                     </div>

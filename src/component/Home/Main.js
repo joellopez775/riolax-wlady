@@ -19,14 +19,14 @@ const Main = () => {
         <main>
             <Sliderhome/>
             <Most/>
-            <Explore/>
+            {/*<Explore/>*/}
             <Rooms/>
             <Luxury/>
             <Prices/>
-            <Testimonial/>
-            <Book/>
+            {/*<Testimonial/>*/}
+           {/* <Book/>*/}
             <Take/>
-            <Latest/>
+            {/* <Latest/>*/}
             <Brand/>
         </main>
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import BGImg from "../../assets/img/slider/slider_bg.png";
-import BGImg1 from "../../assets/img/slider/slider_bg_01.png";
+import BGImg from "../../assets/img/slider/foto-pueblo1.png";
+import BGImg1 from "../../assets/img/slider/foto-pueblo2.png";
 import Slider from "react-slick"
 import { Link } from 'react-router-dom';
 
@@ -55,8 +55,8 @@ function Sliderhome() {
                                 <div className="row justify-content-center align-items-center">
                                     <div className="col-lg-7 col-md-7">
                                         <div className="slider-content s-slider-content mt-80 text-center">
-                                            <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{ animationDelay: "0.4s" }}>Enjoy A Luxuary Experience</h2>
-                                            <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                                            <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{ animationDelay: "0.4s" }}>Comodidad y Naturaleza</h2>
+                                            <p data-animation="fadeInUp" data-delay=".6s">Sientete comodo con todos los servicios actuales junto con la naturaleza y armonia del campo.</p>
 
                                             <div className="slider-btn mt-30 mb-105">
                                                 <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
@@ -74,7 +74,7 @@ function Sliderhome() {
                                 <div className="row justify-content-center align-items-center">
                                     <div className="col-lg-7 col-md-7">
                                         <div className="slider-content s-slider-content mt-80 text-center">
-                                            <h2 data-animation="fadeInUp" data-delay=".4s" style={{ animationDelay: "0.4s" }}>Enjoy A Luxuary Experience</h2>
+                                            <h2 data-animation="fadeInUp" data-delay=".4s" style={{ animationDelay: "0.4s" }}>Tranquilidad y Paz</h2>
                                             <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
 
                                             <div className="slider-btn mt-30 mb-105">
@@ -90,7 +90,7 @@ function Sliderhome() {
                 </Slider>
             </section>
 
-            <div id="booking" className="booking-area p-relative">
+            {/*<div id="booking" className="booking-area p-relative">
                 <div className="container">
                     <form action="#" className="contact-form" >
                         <div className="row align-items-center">
@@ -158,7 +158,7 @@ function Sliderhome() {
                         </div>
                     </form>
                 </div>
-            </div>
+    </div>*/}
 
             {yShow &&
                 <>

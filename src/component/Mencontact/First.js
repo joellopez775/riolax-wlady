@@ -61,7 +61,7 @@ function First() {
                                         <i className="far fa-envelope-open"></i>
                                     </div>
                                     <h5>Message Us</h5>
-                                    <p> <Link to="#">support@example.com</Link><br /><Link to="#">info@example.com</Link></p>
+                                    <p> <Link to="#">contacto@dondeelwlady.cl</Link><br /><Link to="#">contacto@dondeelwlady.cl</Link></p>
                                 </div>
                             </div>
                         </div>
