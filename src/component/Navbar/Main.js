@@ -26,14 +26,14 @@ const Main = () => {
                             <div className="col-lg-10 col-md-10 d-none d-lg-block">
                                 <div className="header-cta">
                                     <ul>
-                                        <li>
+                                        {/*<li>
                                             <i className="far fa-clock"></i>
-                                            <span>Mon - Fri: 9:00 - 19:00/ Closed on Weekends</span>
+                                            <span>Lun - Dom: 9:00 - 19:00/ Closed on Weekends</span>
                                         </li>
                                         <li>
                                             <i className="far fa-mobile"></i>
-                                            <strong>+91 705 210-1786</strong>
-                                        </li>
+                                            <strong>+56 9 3896 9927 </strong>
+    </li>*/}
                                     </ul>
                                 </div>
                             </div>
@@ -54,40 +54,41 @@ const Main = () => {
                     <div className="container">
                         <div className="second-menu">
                             <div className="row align-items-center">
-                                <div className="col-xl-2 col-lg-2">
+                                <div className="col-xl-4 col-lg-4">
                                     <div className="logo">
-                                        <Link to="/"><img src="assets/img/logo/logo.png" alt="logo" /></Link>
+                                        <Link to="/"><img src="assets/img/logo/logo_wlady.png" alt="logo" /></Link>
                                     </div>
+                                    
                                 </div>
                                 <div className="col-xl-8 col-lg-8">
                                     <div className="main-menu text-center">
                                         <nav id="mobile-menu ">
                                             <ul>
                                                 <li className="has-sub">
-                                                    <Link to="/">Home</Link>
-                                                    <ul>
+                                                    <Link to="/">Inicio</Link>
+                                                   { /*<ul>
                                                         <li><Link to="/">Home Page 01</Link></li>
                                                         <li><Link to="/home-02">Home Page 02</Link></li>
                                                         <li><Link to="/home-03">Home Page Side Menu</Link></li>
                                                         <li><Link to="/home-04">Home Page Full Menu</Link></li>
-                                                    </ul>
+                                                    </ul>*/}
                                                 </li>
-                                                <li><Link to="/about">About</Link></li>
+                                                <li><Link to="/about">Nosotros</Link></li>
                                                 <li className="has-sub">
-                                                    <Link to="/room">our rooms</Link>
-                                                    <ul>
+                                                    <Link to="/room">Habitaciones</Link>
+                                                   {/* <ul>
                                                         <li> <Link to="/room">Our Rooms</Link></li>
                                                         <li> <Link to="/room-details">Rooms Details</Link></li>
-                                                    </ul>
+                                                    </ul>*/}
                                                 </li>
                                                 <li className="has-sub">
-                                                    <Link to="/service">Facilities</Link>
-                                                    <ul>
+                                                    <Link to="/service">Servicios</Link>
+                                                    {/*<ul>
                                                         <li> <Link to="/service">Services</Link></li>
                                                         <li> <Link to="/service-details">Services Details</Link></li>
-                                                    </ul>
+                                                    </ul>*/}
                                                 </li>
-                                                <li className="has-sub"><Link to="#">Pages</Link>
+                                                {/*<li className="has-sub"><Link to="#">Pages</Link>
                                                     <ul>
                                                         <li><Link to="/gallery">Gallery</Link></li>
                                                         <li><Link to="/faq">Faq</Link></li>
@@ -104,15 +105,15 @@ const Main = () => {
                                                         <li><Link to="/blog">Blog</Link></li>
                                                         <li><Link to="/blog-details">Blog Details</Link></li>
                                                     </ul>
-                                                </li>
-                                                <li><Link to="/contact">Contact</Link></li>
+                                                </li>*/}
+                                                <li><Link to="/contact">Contacto</Link></li>
                                             </ul>
                                         </nav>
                                     </div>
                                 </div>
-                                <div className="col-xl-2 col-lg-2 d-none d-lg-block">
+                               {/*} <div className="col-xl-2 col-lg-2 d-none d-lg-block">
                                     <Link to="/contact" className="top-btn mt-10 mb-10">reservation </Link>
-                                </div>
+                                            </div>*/}
                                 <div className="col-12">
                                     <div className="mobile-menu mean-container">
                                         <div className="mean-bar"><Link to="#nav" className={`meanmenu-reveal ${mobile && "meanclose"}`} onClick = {() => setmobile(mobile === true ? false : true)} style={{ right: "0px" , left: "auto", textAlign: "center", textIndent: "0px", fontSize: "18px"}}>

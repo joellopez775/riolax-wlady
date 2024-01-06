@@ -889,12 +889,14 @@ z-index: 2;
     display: none;
 }
 .header-three .menu-area {
-    margin-bottom: -106px;
-border-top: 0;
+   
+   height: 90px; /* Ajusta la altura según tus necesidades */
+    border-top: 0;
     position: relative;
-z-index: 9;
-background: #09090975;
+    z-index: 9;
+    background: #09090975;
 }
+
 .header-three .sticky-menu {
   margin-top: 0;
     background: #644222;
