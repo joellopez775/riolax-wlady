@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
  header('Access-Control-Allow-Origin:*');
 
 // Put contacting email here
@@ -24,7 +27,7 @@ $mail->Username='contacto@dondeelwlady.cl'; // enter email here
 $mail->Password='n;=d5hI7U#6]'; //enter password of email id..
 $mail->setFrom('contacto@dondeelwlady.cl','Wladimir Morales'); //change name and email 
 $mail->addAddress($email);
-$mail->addReplyTo(''); //change email here..
+$mail->addReplyTo('contacto@dondeelwlady.cl'); //change email here..
 $mail->isHTML(true);
 $mail->Subject='PHP mailer Subject';
 $mail->Body    = 'Gracias por contactarnos';
